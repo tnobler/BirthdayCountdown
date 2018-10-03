@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Picker from './picker';
 import Button from './button';
+import Clock from './clock';
 
 
 export default class App extends Component {
@@ -19,6 +20,7 @@ export default class App extends Component {
 
         <Picker />
         { Button('Generate Countdown') }
+        <Clock />
       </div>
     );
   }
